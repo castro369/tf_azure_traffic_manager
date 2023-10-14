@@ -17,6 +17,7 @@ variable "web_apps" {
   type = map(object({
     plan_name     = string
     plan_location = string
+    plan_sku_name = string
     app_name      = string
     app_location  = string
   }))
